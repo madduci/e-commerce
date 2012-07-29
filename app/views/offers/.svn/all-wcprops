@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/!svn/ver/433/views/offers
+END
+admin_edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/409/views/offers/admin_edit.ctp
+END
+admin_index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/352/views/offers/admin_index.ctp
+END
+admin_add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/409/views/offers/admin_add.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/433/views/offers/index.ctp
+END

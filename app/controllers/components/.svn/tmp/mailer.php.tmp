@@ -1,0 +1,23 @@
+<?php
+App::import('Component', 'Email');
+
+class MailerComponent extends EmailComponent
+{
+<<<<<<< .mine
+  var $from = 'ovosodo_ingsw@webfaction.com';
+  var $replyTo = 'adduci.michele@gmail.com';
+=======
+  var $from = 'antonio@antoniolore.net';
+>>>>>>> .r386
+  var $sendAs = 'both';
+  var $delivery = 'smtp';
+  var $xMailer = 'Postman';
+  var $smtpOptions = array(
+    'port'=> 25,
+    'host' => 'smtp.webfaction.com',
+    'timeout' => 30,
+    'username' => 'ovosodo_ingsw',
+    'password' => '548ac132'
+  );
+}
+?>

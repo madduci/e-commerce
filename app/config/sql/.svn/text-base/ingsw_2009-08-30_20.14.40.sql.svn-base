@@ -1,0 +1,587 @@
+-- MySQL Administrator dump 1.4
+--
+-- ------------------------------------------------------
+-- Server version	5.1.36-log
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+
+--
+-- Create schema cake_ingsw
+--
+
+CREATE DATABASE IF NOT EXISTS cake_ingsw;
+USE cake_ingsw;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`account_types`;
+CREATE TABLE  `cake_ingsw`.`account_types` (
+  `id` int(2) NOT NULL AUTO_INCREMENT,
+  `descrizione` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `descrizione` (`descrizione`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+INSERT INTO `cake_ingsw`.`account_types` (`id`,`descrizione`) VALUES 
+ (4,'Amministratori'),
+ (7,'Clienti'),
+ (6,'Customer Care'),
+ (5,'Magazzinieri');
+
+DROP TABLE IF EXISTS `cake_ingsw`.`accounts`;
+CREATE TABLE  `cake_ingsw`.`accounts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(70) DEFAULT NULL,
+  `cognome` varchar(70) DEFAULT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `attivo` tinyint(1) NOT NULL DEFAULT '0',
+  `email` varchar(255) NOT NULL,
+  `account_type_id` int(2) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`),
+  KEY `accounts_username_idx` (`username`),
+  KEY `account_type_id_fk` (`account_type_id`),
+  CONSTRAINT `account_type_id_fk` FOREIGN KEY (`account_type_id`) REFERENCES `account_types` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+INSERT INTO `cake_ingsw`.`accounts` (`id`,`nome`,`cognome`,`username`,`password`,`attivo`,`email`,`account_type_id`) VALUES 
+ (9,'','','admin','2525e343481b8b1c819e098980737195c65a0f23',1,'antonio@antoniolore.net',4);
+
+DROP TABLE IF EXISTS `cake_ingsw`.`acos`;
+CREATE TABLE  `cake_ingsw`.`acos` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `parent_id` int(10) DEFAULT NULL,
+  `model` varchar(255) DEFAULT NULL,
+  `foreign_key` int(10) DEFAULT NULL,
+  `alias` varchar(255) DEFAULT NULL,
+  `lft` int(10) DEFAULT NULL,
+  `rght` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=317 DEFAULT CHARSET=latin1;
+INSERT INTO `cake_ingsw`.`acos` (`id`,`parent_id`,`model`,`foreign_key`,`alias`,`lft`,`rght`) VALUES 
+ (161,NULL,NULL,NULL,'controllers',1,312),
+ (162,161,NULL,NULL,'Pages',2,5),
+ (163,162,NULL,NULL,'admin_index',3,4),
+ (164,161,NULL,NULL,'AccountTypes',6,17),
+ (165,164,NULL,NULL,'index',7,8),
+ (166,164,NULL,NULL,'view',9,10),
+ (167,164,NULL,NULL,'add',11,12),
+ (168,164,NULL,NULL,'edit',13,14),
+ (169,164,NULL,NULL,'delete',15,16),
+ (170,161,NULL,NULL,'Accounts',18,35),
+ (171,170,NULL,NULL,'index',19,20),
+ (172,170,NULL,NULL,'view',21,22),
+ (173,170,NULL,NULL,'add',23,24),
+ (174,170,NULL,NULL,'edit',25,26),
+ (175,170,NULL,NULL,'delete',27,28),
+ (176,170,NULL,NULL,'login',29,30),
+ (177,170,NULL,NULL,'logout',31,32),
+ (178,170,NULL,NULL,'initDB',33,34),
+ (179,161,NULL,NULL,'Anomalies',36,47),
+ (180,179,NULL,NULL,'index',37,38),
+ (181,179,NULL,NULL,'view',39,40),
+ (182,179,NULL,NULL,'add',41,42),
+ (183,179,NULL,NULL,'edit',43,44),
+ (184,179,NULL,NULL,'delete',45,46),
+ (185,161,NULL,NULL,'AnomalyTypes',48,59),
+ (186,185,NULL,NULL,'index',49,50),
+ (187,185,NULL,NULL,'view',51,52),
+ (188,185,NULL,NULL,'add',53,54),
+ (189,185,NULL,NULL,'edit',55,56),
+ (190,185,NULL,NULL,'delete',57,58),
+ (191,161,NULL,NULL,'Customers',60,71),
+ (192,191,NULL,NULL,'index',61,62),
+ (193,191,NULL,NULL,'view',63,64),
+ (194,191,NULL,NULL,'add',65,66),
+ (195,191,NULL,NULL,'edit',67,68),
+ (196,191,NULL,NULL,'delete',69,70),
+ (197,161,NULL,NULL,'DetailTypes',72,83),
+ (198,197,NULL,NULL,'index',73,74),
+ (199,197,NULL,NULL,'view',75,76),
+ (200,197,NULL,NULL,'add',77,78),
+ (201,197,NULL,NULL,'edit',79,80),
+ (202,197,NULL,NULL,'delete',81,82),
+ (203,161,NULL,NULL,'DiscountCodes',84,95),
+ (204,203,NULL,NULL,'index',85,86),
+ (205,203,NULL,NULL,'view',87,88),
+ (206,203,NULL,NULL,'add',89,90),
+ (207,203,NULL,NULL,'edit',91,92),
+ (208,203,NULL,NULL,'delete',93,94),
+ (209,161,NULL,NULL,'Filesystems',96,107),
+ (210,209,NULL,NULL,'index',97,98),
+ (211,209,NULL,NULL,'view',99,100),
+ (212,209,NULL,NULL,'add',101,102),
+ (213,209,NULL,NULL,'edit',103,104),
+ (214,209,NULL,NULL,'delete',105,106),
+ (215,161,NULL,NULL,'Groups',108,119),
+ (216,215,NULL,NULL,'index',109,110),
+ (217,215,NULL,NULL,'view',111,112),
+ (218,215,NULL,NULL,'add',113,114),
+ (219,215,NULL,NULL,'edit',115,116),
+ (220,215,NULL,NULL,'delete',117,118),
+ (221,161,NULL,NULL,'OfferTypes',120,131),
+ (222,221,NULL,NULL,'index',121,122),
+ (223,221,NULL,NULL,'view',123,124),
+ (224,221,NULL,NULL,'add',125,126),
+ (225,221,NULL,NULL,'edit',127,128),
+ (226,221,NULL,NULL,'delete',129,130),
+ (227,161,NULL,NULL,'Offers',132,143),
+ (228,227,NULL,NULL,'index',133,134),
+ (229,227,NULL,NULL,'view',135,136),
+ (230,227,NULL,NULL,'add',137,138),
+ (231,227,NULL,NULL,'edit',139,140),
+ (232,227,NULL,NULL,'delete',141,142),
+ (233,161,NULL,NULL,'OffersProducts',144,155),
+ (234,233,NULL,NULL,'index',145,146),
+ (235,233,NULL,NULL,'view',147,148),
+ (236,233,NULL,NULL,'add',149,150),
+ (237,233,NULL,NULL,'edit',151,152),
+ (238,233,NULL,NULL,'delete',153,154),
+ (239,161,NULL,NULL,'OrderProdcuts',156,167),
+ (240,239,NULL,NULL,'index',157,158),
+ (241,239,NULL,NULL,'view',159,160),
+ (242,239,NULL,NULL,'add',161,162),
+ (243,239,NULL,NULL,'edit',163,164),
+ (244,239,NULL,NULL,'delete',165,166),
+ (245,161,NULL,NULL,'OrderStatuses',168,179),
+ (246,245,NULL,NULL,'index',169,170),
+ (247,245,NULL,NULL,'view',171,172),
+ (248,245,NULL,NULL,'add',173,174),
+ (249,245,NULL,NULL,'edit',175,176),
+ (250,245,NULL,NULL,'delete',177,178),
+ (251,161,NULL,NULL,'Orders',180,191),
+ (252,251,NULL,NULL,'index',181,182),
+ (253,251,NULL,NULL,'view',183,184),
+ (254,251,NULL,NULL,'add',185,186),
+ (255,251,NULL,NULL,'edit',187,188),
+ (256,251,NULL,NULL,'delete',189,190),
+ (257,161,NULL,NULL,'PaymentMethods',192,203),
+ (258,257,NULL,NULL,'index',193,194),
+ (259,257,NULL,NULL,'view',195,196),
+ (260,257,NULL,NULL,'add',197,198),
+ (261,257,NULL,NULL,'edit',199,200),
+ (262,257,NULL,NULL,'delete',201,202),
+ (263,161,NULL,NULL,'ProductCategories',204,215),
+ (264,263,NULL,NULL,'index',205,206),
+ (265,263,NULL,NULL,'add',207,208),
+ (266,263,NULL,NULL,'edit',209,210),
+ (267,263,NULL,NULL,'delete',211,212),
+ (268,263,NULL,NULL,'sortCategories',213,214),
+ (269,161,NULL,NULL,'ProductFilesystems',216,227),
+ (270,269,NULL,NULL,'index',217,218),
+ (271,269,NULL,NULL,'view',219,220),
+ (272,269,NULL,NULL,'add',221,222),
+ (273,269,NULL,NULL,'edit',223,224),
+ (274,269,NULL,NULL,'delete',225,226),
+ (275,161,NULL,NULL,'ProductReservations',228,239),
+ (276,275,NULL,NULL,'index',229,230),
+ (277,275,NULL,NULL,'view',231,232),
+ (278,275,NULL,NULL,'add',233,234),
+ (279,275,NULL,NULL,'edit',235,236),
+ (280,275,NULL,NULL,'delete',237,238),
+ (281,161,NULL,NULL,'ProductStatuses',240,251),
+ (282,281,NULL,NULL,'index',241,242),
+ (283,281,NULL,NULL,'view',243,244),
+ (284,281,NULL,NULL,'add',245,246),
+ (285,281,NULL,NULL,'edit',247,248),
+ (286,281,NULL,NULL,'delete',249,250),
+ (287,161,NULL,NULL,'ProductTechnicalDetails',252,263),
+ (288,287,NULL,NULL,'index',253,254),
+ (289,287,NULL,NULL,'view',255,256),
+ (290,287,NULL,NULL,'add',257,258),
+ (291,287,NULL,NULL,'edit',259,260),
+ (292,287,NULL,NULL,'delete',261,262),
+ (293,161,NULL,NULL,'Products',264,275),
+ (294,293,NULL,NULL,'index',265,266),
+ (295,293,NULL,NULL,'view',267,268),
+ (296,293,NULL,NULL,'add',269,270),
+ (297,293,NULL,NULL,'edit',271,272),
+ (298,293,NULL,NULL,'delete',273,274),
+ (299,161,NULL,NULL,'Reservations',276,287),
+ (300,299,NULL,NULL,'index',277,278),
+ (301,299,NULL,NULL,'view',279,280),
+ (302,299,NULL,NULL,'add',281,282),
+ (303,299,NULL,NULL,'edit',283,284),
+ (304,299,NULL,NULL,'delete',285,286),
+ (305,161,NULL,NULL,'ShippingMethods',288,299),
+ (306,305,NULL,NULL,'index',289,290),
+ (307,305,NULL,NULL,'view',291,292),
+ (308,305,NULL,NULL,'add',293,294),
+ (309,305,NULL,NULL,'edit',295,296),
+ (310,305,NULL,NULL,'delete',297,298),
+ (311,161,NULL,NULL,'Suppliers',300,311),
+ (312,311,NULL,NULL,'index',301,302),
+ (313,311,NULL,NULL,'view',303,304),
+ (314,311,NULL,NULL,'add',305,306),
+ (315,311,NULL,NULL,'edit',307,308),
+ (316,311,NULL,NULL,'delete',309,310);
+
+DROP TABLE IF EXISTS `cake_ingsw`.`anomalies`;
+CREATE TABLE  `cake_ingsw`.`anomalies` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `anomaly_type_id` int(4) NOT NULL,
+  `oggetto` varchar(255) NOT NULL,
+  `descrizione` longtext NOT NULL,
+  `order_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `anomaly_type_id_idxfk` (`anomaly_type_id`),
+  KEY `order_id_idxfk` (`order_id`),
+  CONSTRAINT `anomalies_ibfk_1` FOREIGN KEY (`anomaly_type_id`) REFERENCES `anomaly_types` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `anomalies_ibfk_2` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`anomaly_types`;
+CREATE TABLE  `cake_ingsw`.`anomaly_types` (
+  `id` int(4) NOT NULL AUTO_INCREMENT,
+  `descrizione` varchar(40) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`aros`;
+CREATE TABLE  `cake_ingsw`.`aros` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `parent_id` int(10) DEFAULT NULL,
+  `model` varchar(255) DEFAULT NULL,
+  `foreign_key` int(10) DEFAULT NULL,
+  `alias` varchar(255) DEFAULT NULL,
+  `lft` int(10) DEFAULT NULL,
+  `rght` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+INSERT INTO `cake_ingsw`.`aros` (`id`,`parent_id`,`model`,`foreign_key`,`alias`,`lft`,`rght`) VALUES 
+ (1,NULL,'AccountType',4,NULL,1,12),
+ (2,NULL,'AccountType',5,NULL,13,14),
+ (3,NULL,'AccountType',6,NULL,15,16),
+ (4,NULL,'AccountType',7,NULL,17,20),
+ (5,1,'Account',1,NULL,2,3),
+ (6,4,'Account',2,NULL,18,19),
+ (7,1,'Account',6,NULL,4,5),
+ (8,1,'Account',7,NULL,6,7),
+ (9,1,'Account',8,NULL,8,9),
+ (10,1,'Account',9,NULL,10,11);
+
+DROP TABLE IF EXISTS `cake_ingsw`.`aros_acos`;
+CREATE TABLE  `cake_ingsw`.`aros_acos` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `aro_id` int(10) NOT NULL,
+  `aco_id` int(10) NOT NULL,
+  `_create` varchar(2) NOT NULL DEFAULT '0',
+  `_read` varchar(2) NOT NULL DEFAULT '0',
+  `_update` varchar(2) NOT NULL DEFAULT '0',
+  `_delete` varchar(2) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `ARO_ACO_KEY` (`aro_id`,`aco_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+INSERT INTO `cake_ingsw`.`aros_acos` (`id`,`aro_id`,`aco_id`,`_create`,`_read`,`_update`,`_delete`) VALUES 
+ (8,1,161,'1','1','1','1'),
+ (9,2,161,'-1','-1','-1','-1'),
+ (10,2,263,'1','1','1','1'),
+ (11,2,293,'1','1','1','1'),
+ (12,4,161,'-1','-1','-1','-1');
+
+DROP TABLE IF EXISTS `cake_ingsw`.`customers`;
+CREATE TABLE  `cake_ingsw`.`customers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ragione_sociale` varchar(100) NOT NULL,
+  `codice_fiscale` char(16) NOT NULL,
+  `group_id` int(11) NOT NULL,
+  `discount_code_id` int(11) DEFAULT NULL,
+  `account_id` int(11) NOT NULL,
+  `filesystem_id` int(11) DEFAULT NULL,
+  `indirizzo` varchar(255) NOT NULL,
+  `cap` varchar(5) NOT NULL,
+  `citta` varchar(100) DEFAULT NULL,
+  `provincia` char(2) DEFAULT NULL,
+  `regione` varchar(50) DEFAULT NULL,
+  `telefono` varchar(15) DEFAULT NULL,
+  `fax` varchar(15) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `filesystem_id` (`filesystem_id`),
+  KEY `discount_code_id_idxfk` (`discount_code_id`),
+  KEY `account_id_idxfk` (`account_id`),
+  KEY `customers_filesystem_id_idxfk` (`filesystem_id`),
+  CONSTRAINT `customers_ibfk_1` FOREIGN KEY (`discount_code_id`) REFERENCES `discount_codes` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `customers_ibfk_2` FOREIGN KEY (`account_id`) REFERENCES `accounts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `customers_ibfk_3` FOREIGN KEY (`filesystem_id`) REFERENCES `filesystems` (`id`) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`detail_types`;
+CREATE TABLE  `cake_ingsw`.`detail_types` (
+  `id` int(3) NOT NULL AUTO_INCREMENT,
+  `descrizione` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `descrizione` (`descrizione`),
+  KEY `detail_types_descrizione_idx` (`descrizione`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`discount_codes`;
+CREATE TABLE  `cake_ingsw`.`discount_codes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `codice` float NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`filesystems`;
+CREATE TABLE  `cake_ingsw`.`filesystems` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `file` varchar(255) NOT NULL,
+  `descrizione` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `filesystems_descrizione_idx` (`descrizione`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`groups`;
+CREATE TABLE  `cake_ingsw`.`groups` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `gruppo` varchar(255) NOT NULL,
+  `partita_iva` varchar(11) NOT NULL,
+  `filesystem_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `gruppo` (`gruppo`),
+  UNIQUE KEY `partita_iva` (`partita_iva`),
+  KEY `groups_gruppo_idx` (`gruppo`),
+  KEY `groups_partita_iva_idx` (`partita_iva`),
+  KEY `groups_filesystem_id_idx` (`filesystem_id`),
+  CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`filesystem_id`) REFERENCES `filesystems` (`id`) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`offer_types`;
+CREATE TABLE  `cake_ingsw`.`offer_types` (
+  `id` int(2) NOT NULL AUTO_INCREMENT,
+  `descrizione` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `descrizione` (`descrizione`),
+  KEY `offer_types_descrizione_idx` (`descrizione`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`offers`;
+CREATE TABLE  `cake_ingsw`.`offers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `offer_type_id` int(2) NOT NULL,
+  `inizio` datetime NOT NULL,
+  `fine` datetime NOT NULL,
+  `groups_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `offer_type_id_idxfk` (`offer_type_id`),
+  KEY `groups_id_idxfk` (`groups_id`),
+  CONSTRAINT `offers_ibfk_1` FOREIGN KEY (`offer_type_id`) REFERENCES `offer_types` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `offers_ibfk_2` FOREIGN KEY (`groups_id`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`offers_products`;
+CREATE TABLE  `cake_ingsw`.`offers_products` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_id` int(11) NOT NULL,
+  `offer_id` int(11) NOT NULL,
+  `prezzo` float DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `product_id` (`product_id`),
+  UNIQUE KEY `offer_id` (`offer_id`),
+  KEY `offers_products_product_id_idxfk` (`product_id`),
+  KEY `offers_products_offer_id_idxfk` (`offer_id`),
+  CONSTRAINT `offers_products_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `offers_products_ibfk_2` FOREIGN KEY (`offer_id`) REFERENCES `offers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`order_products`;
+CREATE TABLE  `cake_ingsw`.`order_products` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `order_id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `qta` int(11) NOT NULL,
+  `unitario` double NOT NULL,
+  `totale` double NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `order_id` (`order_id`),
+  UNIQUE KEY `product_id` (`product_id`),
+  KEY `order_products_order_id_idxfk` (`order_id`) USING BTREE,
+  KEY `order_products_product_id_idxfk` (`product_id`) USING BTREE,
+  CONSTRAINT `order_products_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `order_products_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`order_statuses`;
+CREATE TABLE  `cake_ingsw`.`order_statuses` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `stato` varchar(15) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`orders`;
+CREATE TABLE  `cake_ingsw`.`orders` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `customer_id` int(11) NOT NULL,
+  `data_ordine` datetime NOT NULL,
+  `payment_method_id` int(11) DEFAULT NULL,
+  `shipping_method_id` int(11) DEFAULT NULL,
+  `tracking` varchar(32) DEFAULT NULL,
+  `data_evasione` datetime DEFAULT NULL,
+  `order_status_id` int(11) DEFAULT NULL,
+  `note` longtext NOT NULL,
+  `totale` float DEFAULT '0',
+  `reservation_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `customer_id_idxfk` (`customer_id`),
+  KEY `shipping_method_id_idxfk` (`shipping_method_id`),
+  KEY `order_status_id_idxfk` (`order_status_id`),
+  KEY `reservation_id_idxfk` (`reservation_id`),
+  CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `orders_ibfk_2` FOREIGN KEY (`shipping_method_id`) REFERENCES `shipping_methods` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `orders_ibfk_3` FOREIGN KEY (`order_status_id`) REFERENCES `order_statuses` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `orders_ibfk_4` FOREIGN KEY (`reservation_id`) REFERENCES `reservations` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`payment_methods`;
+CREATE TABLE  `cake_ingsw`.`payment_methods` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `metodo` varchar(64) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`product_categories`;
+CREATE TABLE  `cake_ingsw`.`product_categories` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `parent_id` int(6) DEFAULT NULL,
+  `lft` int(6) NOT NULL,
+  `rght` int(6) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `product_categories_descrizione_idx` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+INSERT INTO `cake_ingsw`.`product_categories` (`id`,`parent_id`,`lft`,`rght`,`name`) VALUES 
+ (1,NULL,1,16,'My Categories'),
+ (9,1,2,15,'Work'),
+ (10,9,3,8,'Reports'),
+ (11,10,4,5,'Annual'),
+ (12,10,6,7,'Status'),
+ (13,9,9,14,'Trips'),
+ (14,13,12,13,'National'),
+ (15,13,10,11,'International'),
+ (16,NULL,17,18,'test fichissimo'),
+ (17,NULL,19,20,''),
+ (18,NULL,21,22,'aa'),
+ (19,NULL,23,24,'prova');
+
+DROP TABLE IF EXISTS `cake_ingsw`.`product_filesystems`;
+CREATE TABLE  `cake_ingsw`.`product_filesystems` (
+  `id` int(11) NOT NULL DEFAULT '0',
+  `product_id` int(11) NOT NULL,
+  `filesystem_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `product_id_idxfk` (`product_id`),
+  KEY `filesystem_id_idxfk` (`filesystem_id`),
+  CONSTRAINT `product_filesystems_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `product_filesystems_ibfk_2` FOREIGN KEY (`filesystem_id`) REFERENCES `filesystems` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`product_reservations`;
+CREATE TABLE  `cake_ingsw`.`product_reservations` (
+  `reservation_id` int(11) NOT NULL DEFAULT '0',
+  `offers_product_id` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`reservation_id`,`offers_product_id`),
+  KEY `product_reservations_reservation_id_idxfk` (`reservation_id`),
+  KEY `product_reservations_offers_product_id_idxfk` (`offers_product_id`),
+  CONSTRAINT `product_reservations_ibfk_1` FOREIGN KEY (`reservation_id`) REFERENCES `reservations` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `product_reservations_ibfk_2` FOREIGN KEY (`offers_product_id`) REFERENCES `offers_products` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`product_statuses`;
+CREATE TABLE  `cake_ingsw`.`product_statuses` (
+  `id` int(2) NOT NULL AUTO_INCREMENT,
+  `descrizione` varchar(30) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `descrizione` (`descrizione`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`product_technical_details`;
+CREATE TABLE  `cake_ingsw`.`product_technical_details` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `detail_type_id` int(3) DEFAULT NULL,
+  `valore_dettaglio` varchar(255) NOT NULL,
+  `product_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `detail_type_id_idxfk` (`detail_type_id`),
+  KEY `product_id_idxfk` (`product_id`),
+  CONSTRAINT `product_technical_details_ibfk_1` FOREIGN KEY (`detail_type_id`) REFERENCES `detail_types` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `product_technical_details_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`products`;
+CREATE TABLE  `cake_ingsw`.`products` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `codice_prodotto` varchar(15) NOT NULL,
+  `nome` varchar(255) NOT NULL,
+  `descrizione` longtext NOT NULL,
+  `product_category_id` int(10) NOT NULL,
+  `product_status_id` int(2) DEFAULT NULL,
+  `prezzo` float NOT NULL,
+  `qta_minima_ordinabile` int(4) NOT NULL DEFAULT '0',
+  `qta_incremento` int(3) NOT NULL DEFAULT '0',
+  `qta_disponibile` int(11) DEFAULT NULL,
+  `peso` float NOT NULL DEFAULT '0',
+  `vetrina` tinyint(1) DEFAULT '0',
+  `pubblica` tinyint(1) DEFAULT '0',
+  `supplier_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `codice_prodotto` (`codice_prodotto`),
+  KEY `products_codice_prodotto_idx` (`codice_prodotto`),
+  KEY `products_nome_idx` (`nome`),
+  KEY `product_category_id_idxfk` (`product_category_id`),
+  KEY `product_status_id_idxfk` (`product_status_id`),
+  KEY `supplier_id_idxfk` (`supplier_id`),
+  CONSTRAINT `products_ibfk_1` FOREIGN KEY (`product_category_id`) REFERENCES `product_categories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `products_ibfk_2` FOREIGN KEY (`product_status_id`) REFERENCES `product_statuses` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `products_ibfk_3` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`reservations`;
+CREATE TABLE  `cake_ingsw`.`reservations` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `customer_id` int(11) NOT NULL,
+  `data` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `customer_id_idxfk` (`customer_id`),
+  CONSTRAINT `reservations_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`shipping_methods`;
+CREATE TABLE  `cake_ingsw`.`shipping_methods` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `descrizione` varchar(64) NOT NULL,
+  `costo` float NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `cake_ingsw`.`suppliers`;
+CREATE TABLE  `cake_ingsw`.`suppliers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `partita_iva` varchar(11) NOT NULL,
+  `ragione_sociale` varchar(255) NOT NULL,
+  `indirizzo` varchar(255) NOT NULL,
+  `cap` varchar(5) NOT NULL,
+  `citta` varchar(100) NOT NULL,
+  `provincia` char(2) NOT NULL,
+  `telefono` varchar(15) NOT NULL,
+  `fax` varchar(15) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `partita_iva` (`partita_iva`),
+  KEY `suppliers_partita_iva_idx` (`partita_iva`),
+  KEY `suppliers_ragione_sociale_idx` (`ragione_sociale`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

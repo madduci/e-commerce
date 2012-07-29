@@ -1,0 +1,37 @@
+K 10
+svn:ignore
+V 938
+._groups_controller.php
+._account_types_controller.php
+._anomalies_controller.php
+._detail_types_controller.php
+._filesystems_controller.php
+._offer_types_controller.php
+._order_products_controller.php
+._product_categories_controller.php
+._accounts_controller.php
+._products_controller.php
+._reservations_controller.php
+._anomaly_types_controller.php
+._carts_controller.php
+._customers_controller.php
+._offers_controller.php
+._order_statuses_controller.php
+._product_statuses_controller.php
+._discount_codes_controller.php
+._offers_products_controller.php
+._suppliers_controller.php
+._mails_controller.php
+._statistics_controller.php
+._product_technical_details_controller.php
+._product_reservations_controller.php
+._contacts_controller.php
+._faqs_controller.php
+._flyers_controller.php
+._orders_controller.php
+._payment_methods_controller.php
+._pages_controller.php
+._product_filesystems_controller.php
+._shipping_methods_controller.php
+
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/!svn/ver/493/tmp/logs
+END
+debug.log
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/493/tmp/logs/debug.log
+END
+error.log
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/493/tmp/logs/error.log
+END
+empty
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/!svn/ver/4/tmp/logs/empty
+END

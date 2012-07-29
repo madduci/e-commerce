@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/!svn/ver/486/vendors/dompdf
+END
+LICENSE.LGPL
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/441/vendors/dompdf/LICENSE.LGPL
+END
+dompdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/441/vendors/dompdf/dompdf.php
+END
+load_font.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/441/vendors/dompdf/load_font.php
+END
+dompdf_config.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/441/vendors/dompdf/dompdf_config.inc.php
+END

@@ -1,0 +1,329 @@
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: 'lucida grande', helvetica, verdana, tahoma, sans-serif;
+	font-size: 12px;
+	margin: 0em;
+	padding: 0em;
+}
+img {
+	border: 0;
+}
+.description {
+	color: #aaa;
+	font-style: italic;
+	font-size: 10px;
+	line-height: 12px;
+}
+#struttura {
+	background-color: #fff;
+	color: #000;
+	line-height: 180%;
+	margin: 0em;
+	padding: 0em;
+	text-align: left;
+	width: 100%;
+}
+#header {
+	background-color: #2B60DE;
+	color: #FFFFFF;
+	font: normal 20px "Lucida Grande", "Verdana";
+	line-height: 48px;
+	height: 48px;
+	padding-left: 0.6em;
+}
+#header .logininfo {
+	padding: 10px 10px 0 0;
+	float: right;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: right;
+}
+#header .logininfo a {
+	color: #fff;
+	text-decoration: none;
+}
+#header .logininfo a:hover {
+	color: #E16A20;
+}
+#titolo a {
+	color: #000;
+	text-decoration: none;
+}
+#titolo a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+#content
+{
+	background: #fff;
+	color: #000;
+}
+#content p
+{
+	/*font-size: 100%;*/
+	line-height: 1.8em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+#content h1
+{
+	background-color: #FFFFFF;
+	color: #05181E;
+	font: normal 180% Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 0.3em;
+	padding-top: 0.3em;
+}
+#content h2
+{
+	border-bottom: 1px dotted #FF9006;
+	color: #940D1E;
+	font: normal 24px "lucida grande", "Verdana";
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin: 10px 0 0 0;
+}
+
+#footer {
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #2B60DE;
+	color: #fff;
+	font-size: 80%;
+	margin: 0 auto;
+	font-size:10px;
+}
+#footer span {
+	padding: 0 10px;
+}
+
+#footer a:link, #footer a:visited
+{
+	background-color: #420702;
+	color: #fff;
+	text-decoration: underline;
+}
+#footer a:hover
+{
+	background-color: #fff;
+	color: #420702;
+	text-decoration: none;
+}
+
+.admintables {
+	border-collapse:collapse;
+	font-family:"Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+	font-size:12px;
+	margin:0px;
+	border-bottom: 1px solid #333;
+	text-align:left;
+	width:100%;
+}
+.admintables .odd {
+	background:#E8EDFF none repeat scroll 0 0;
+}
+.admintables th{
+	text-align:left;
+	color:#003399;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 8px;
+}
+.admintables td {
+	color:#666699;
+	padding:8px;
+	font-size:14px;
+	text-align:left;
+	border-collapse:collapse;
+	font-family:"Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+}
+.admintables tbody > tr:hover {
+	background-color:#eee;
+}
+.admintables tfoot > tr {
+	background-color: #333;
+}
+.admintables tfoot > tr > td {
+	color: #fff;
+	font-size: 12px;
+	line-height: 12px;
+}
+.admintables tfoot a {
+	color: #fff;
+	text-decoration: none;
+}
+.admintables tfoot a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.admintables thead a {
+	color: #003399;
+	text-decoration:none;
+}
+.admintables thead a:hover {
+	color: #000;
+}
+.crud {
+	padding-right: 10px;
+	line-height: 16px;
+	height:16px;
+}
+.crud .add {
+	list-style-image: url(/img/crud/add.png);
+}
+.crud .save {
+	list-style-image: url(/img/crud/save.png);
+}
+.crud .delete {
+	list-style-image: url(/img/crud/delete.png);
+}
+.crud .cancel {
+	list-style-image: url(/img/crud/cancel.png);
+}
+.crud .search {
+	list-style-image: url(/img/crud/search.png);
+}
+.crud li {
+	float: left;
+	margin-right: 30px;
+}
+.crud li > a {
+	text-decoration: none;
+	color: #999;
+}
+.crud li > a:hover {
+	color: #000;
+}
+#flashMessage, #authMessage {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.flashsuccess {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image: url('/img/messages/success.png');
+}
+.flashwarning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('/img/messages/warning.png');
+}
+.flasherror, div#authMessage {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('/img/messages/error.png');
+}
+.error {
+	border: 1px solid;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+#floatingtop {
+	background-color: rgb(253, 250, 164);
+	position:fixed; 
+	top:0; 
+	right:0; 
+	display:none;
+	width: 100%;
+	-moz-opacity: 0.85;
+	filter:alpha(opacity=85);
+	opacity: 0.85;
+}
+#floatingtop .crud {
+	margin-top: 10px;
+}
+input {
+	border: 1px solid #999;
+	height: 20px;
+	font-size:14px;
+}
+/*fieldset{
+	margin-bottom: 10px;
+
+}
+
+legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+
+label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+
+fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+fieldset fieldset label {
+  display: block;
+  width: auto;
+}
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+label {
+  width: 120px; 
+}
+fieldset fieldset label {
+  margin-left: 123px; 
+}
+input, select, textarea {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 100%;
+  color: #000000;
+  margin: 5px 0 0 0;
+  padding: 1px 3px;
+  clear: left;
+}*/
+
+textarea {
+  overflow: auto;
+}
+.paging div{
+	
+	display:inline;
+}
+
+.submit div {
+  display: inline;
+  float: left;
+  text-align: left;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+dt{
+	
+	font-size: 14px;
+	color:#003399;
+}
+
+dd{
+	display: inline;
+	font-size: 14px;
+	margin: 5px 0 0 130px;
+}
+
+dt dd{
+	font-family: Tahoma, Arial, sans-serif;
+  	font-size: 100%;
+	display: block;
+}

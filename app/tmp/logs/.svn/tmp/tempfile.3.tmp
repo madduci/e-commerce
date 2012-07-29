@@ -1,0 +1,2012 @@
+2009-08-26 12:07:09 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`account_types`, CONSTRAINT `account_types_ibfk_1` FOREIGN KEY (`id`) REFERENCES `accounts` (`account_type_id`) ON DELETE CASCADE ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 12:10:05 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`account_types`, CONSTRAINT `account_types_ibfk_1` FOREIGN KEY (`id`) REFERENCES `accounts` (`account_type_id`) ON DELETE CASCADE ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 12:11:33 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`account_types`, CONSTRAINT `account_types_ibfk_1` FOREIGN KEY (`id`) REFERENCES `accounts` (`account_type_id`) ON DELETE CASCADE ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 12:12:23 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`account_types`, CONSTRAINT `account_types_ibfk_1` FOREIGN KEY (`id`) REFERENCES `accounts` (`account_type_id`) ON DELETE CASCADE ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 12:12:27 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`account_types`, CONSTRAINT `account_types_ibfk_1` FOREIGN KEY (`id`) REFERENCES `accounts` (`account_type_id`) ON DELETE CASCADE ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 12:13:13 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`account_types`, CONSTRAINT `account_types_ibfk_1` FOREIGN KEY (`id`) REFERENCES `accounts` (`account_type_id`) ON DELETE CASCADE ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:49:33 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:49:33 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:50:01 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:50:01 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:50:02 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:50:02 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:50:10 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:50:10 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:50:11 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:50:11 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:50:13 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:50:13 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:51:38 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:51:38 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:51:39 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:51:39 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:51:41 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:51:41 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:51:42 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:51:42 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 13:51:42 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductCategory.rght' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 13:51:42 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/behaviors/tree.php, line 343]
+2009-08-26 14:38:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:312) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-26 14:38:44 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:312) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-26 14:46:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-26 14:58:45 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-26 15:47:42 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry 'prova' for key 'descrizione'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-26 16:10:00 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/product_categories/index.ctp, line 1]
+2009-08-28 09:17:03 Warning: Warning (4096): Object of class ProductCategoriesController could not be converted to string in [APP/app_controller.php, line 16]
+2009-08-28 09:20:08 Warning: Warning (4096): Object of class ProductCategoriesController could not be converted to string in [APP/app_controller.php, line 16]
+2009-08-28 09:22:00 Warning: Warning (4096): Object of class ProductCategoriesController could not be converted to string in [APP/app_controller.php, line 16]
+2009-08-28 09:22:01 Warning: Warning (4096): Object of class ProductCategoriesController could not be converted to string in [APP/app_controller.php, line 16]
+2009-08-28 09:22:03 Warning: Warning (4096): Object of class ProductCategoriesController could not be converted to string in [APP/app_controller.php, line 16]
+2009-08-28 09:23:14 Warning: Warning (4096): Object of class ProductCategoriesController could not be converted to string in [APP/app_controller.php, line 16]
+2009-08-28 11:49:13 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE/cake/libs/controller/components/acl.php, line 325]
+2009-08-28 12:04:56 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry 'admin' for key 'username'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-28 12:04:59 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '4' for key 'account_type_id'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-28 12:05:01 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '4' for key 'account_type_id'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-28 12:21:13 Warning: Warning (2): Missing argument 2 for AppController::_exists(), called in /Users/ovosodo/Sites/ingsw/cake/app/controllers/product_categories_controller.php on line 27 and defined in [APP/app_controller.php, line 19]
+2009-08-28 12:21:13 Warning: Warning (2): Missing argument 3 for AppController::_exists(), called in /Users/ovosodo/Sites/ingsw/cake/app/controllers/product_categories_controller.php on line 27 and defined in [APP/app_controller.php, line 19]
+2009-08-28 12:21:50 Warning: Warning (2): Missing argument 2 for AppController::_exists(), called in /Users/ovosodo/Sites/ingsw/cake/app/controllers/product_categories_controller.php on line 27 and defined in [APP/app_controller.php, line 19]
+2009-08-28 12:21:50 Warning: Warning (2): Missing argument 3 for AppController::_exists(), called in /Users/ovosodo/Sites/ingsw/cake/app/controllers/product_categories_controller.php on line 27 and defined in [APP/app_controller.php, line 19]
+2009-08-28 12:22:10 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/logour in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 12:22:10 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 12:23:23 Warning: Warning (2): Missing argument 2 for AppController::_exists(), called in /Users/ovosodo/Sites/ingsw/cake/app/controllers/product_categories_controller.php on line 27 and defined in [APP/app_controller.php, line 19]
+2009-08-28 12:23:23 Warning: Warning (2): Missing argument 3 for AppController::_exists(), called in /Users/ovosodo/Sites/ingsw/cake/app/controllers/product_categories_controller.php on line 27 and defined in [APP/app_controller.php, line 19]
+2009-08-28 15:05:29 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Backend/index in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:05:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:06:12 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:06:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:06:18 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/initDB in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:06:18 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:06:25 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Backend/index in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:06:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:06:51 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildacl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:06:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:07:42 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:07:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:08:42 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:08:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:09:25 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:09:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:23:44 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:23:44 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:25:10 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:25:10 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:25:15 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:25:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:25:17 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:25:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:28:00 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:28:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:28:04 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:28:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:32:02 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:32:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:33:01 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 0
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:33:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:36:41 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:36:41 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:37:43 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Accounts/buildAcl in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:37:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:38:47 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Backend/index in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:38:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:42:30 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Pages/admin_index in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:42:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:42:32 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Pages/admin_index in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:42:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-28 15:42:33 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 9
+            [nome] => 
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => antonio@antoniolore.net
+            [account_type_id] => 4
+        )
+
+)
+
+Aco: controllers/Pages/admin_index in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-08-28 15:42:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-31 11:46:42 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'data' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-31 11:47:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:108) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-31 11:47:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:108) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-31 12:23:11 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'foo' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-31 12:26:01 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'foo' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-31 12:26:07 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'foo' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-31 12:41:54 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'data' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-08-31 13:24:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:108) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-31 13:27:41 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:108) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-08-31 13:59:20 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:108) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-01 13:40:59 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column '13' in 'order clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-01 13:41:27 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column '13' in 'order clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-01 13:42:04 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column '13' in 'order clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-01 13:42:21 Warning: Warning (2): array_combine() [<a href='http://php.net/function.array-combine'>function.array-combine</a>]: Both parameters should have at least 1 element in [CORE/cake/libs/set.php, line 976]
+2009-09-01 13:42:36 Warning: Warning (2): array_combine() [<a href='http://php.net/function.array-combine'>function.array-combine</a>]: Both parameters should have at least 1 element in [CORE/cake/libs/set.php, line 976]
+2009-09-01 14:00:05 Warning: Warning (512): Method HtmlHelper::checkbox does not exist in [CORE/cake/libs/view/helper.php, line 143]
+2009-09-01 14:47:08 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`filesystem_id`) REFERENCES `filesystems` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-01 14:47:38 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`filesystem_id`) REFERENCES `filesystems` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-01 14:47:39 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`filesystem_id`) REFERENCES `filesystems` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-01 14:47:40 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`filesystem_id`) REFERENCES `filesystems` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-01 14:48:06 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`filesystem_id`) REFERENCES `filesystems` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-01 15:21:28 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-01 22:13:03 Warning: Warning (2): Illegal offset type in [CORE/cake/libs/set.php, line 905]
+2009-09-01 22:13:10 Warning: Warning (2): Illegal offset type in [CORE/cake/libs/set.php, line 905]
+2009-09-01 22:13:12 Warning: Warning (2): Illegal offset type in [CORE/cake/libs/set.php, line 905]
+2009-09-01 22:13:13 Warning: Warning (2): Illegal offset type in [CORE/cake/libs/set.php, line 905]
+2009-09-02 12:21:53 Warning: Warning (2): Missing argument 2 for FileSystemComponent::jquery_script(), called in /Users/ovosodo/Sites/ingsw/cake/app/controllers/groups_controller.php on line 33 and defined in [APP/controllers/components/filesystem.php, line 45]
+2009-09-02 12:21:53 Warning: Warning (2): Missing argument 5 for FileSystemComponent::jquery_script(), called in /Users/ovosodo/Sites/ingsw/cake/app/controllers/groups_controller.php on line 33 and defined in [APP/controllers/components/filesystem.php, line 45]
+2009-09-02 12:38:07 Warning: Warning (2): Missing argument 1 for GroupsController::admin_upload_file(), called in /Users/ovosodo/Sites/ingsw/cake/cake/libs/object.php on line 116 and defined in [APP/controllers/groups_controller.php, line 82]
+2009-09-02 14:34:15 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/groups/admin_edit.ctp, line 2]
+2009-09-02 14:34:15 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/groups/admin_edit.ctp, line 6]
+2009-09-02 14:34:27 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/groups/admin_edit.ctp, line 2]
+2009-09-02 14:34:27 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/groups/admin_edit.ctp, line 6]
+2009-09-02 15:32:07 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/groups/admin_edit.ctp, line 2]
+2009-09-02 15:32:07 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/groups/admin_edit.ctp, line 6]
+2009-09-02 15:45:27 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'home' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-02 15:45:27 Warning: Warning (2): array_filter() [<a href='http://php.net/function.array-filter'>function.array-filter</a>]: The first argument should be an array in [APP/views/products/index.ctp, line 13]
+2009-09-02 15:50:42 Warning: Warning (2): unlink(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/groups/125189772660.png) [<a href='http://php.net/function.unlink'>function.unlink</a>]: No such file or directory in [APP/controllers/groups_controller.php, line 56]
+2009-09-02 15:50:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:111) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-03 09:29:53 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'home' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 09:30:11 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'home' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 09:30:13 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'home' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 09:30:36 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'home' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 09:42:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:313) in [APP/controllers/filesystems_controller.php, line 96]
+2009-09-03 09:42:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:313) in [APP/controllers/filesystems_controller.php, line 97]
+2009-09-03 10:06:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:117) in [APP/controllers/filesystems_controller.php, line 98]
+2009-09-03 10:06:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:117) in [APP/controllers/filesystems_controller.php, line 99]
+2009-09-03 10:06:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:117) in [APP/controllers/filesystems_controller.php, line 98]
+2009-09-03 10:06:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:117) in [APP/controllers/filesystems_controller.php, line 99]
+2009-09-03 10:27:42 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry 'asda2' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 12:08:22 Warning: Warning (2): fopen(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/picture_1_125187664171.png) [http://php.net/function.fopen]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 89]
+2009-09-03 12:08:22 Warning: Warning (2): filesize() [http://php.net/function.filesize]: stat failed for /Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/picture_1_125187664171.png in [APP/controllers/filesystems_controller.php, line 90]
+2009-09-03 12:08:22 Warning: Warning (2): fread(): supplied argument is not a valid stream resource in [APP/controllers/filesystems_controller.php, line 91]
+2009-09-03 12:08:22 Warning: Warning (2): fclose(): supplied argument is not a valid stream resource in [APP/controllers/filesystems_controller.php, line 92]
+2009-09-03 12:08:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [APP/controllers/filesystems_controller.php, line 100]
+2009-09-03 12:08:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [APP/controllers/filesystems_controller.php, line 101]
+2009-09-03 12:08:26 Warning: Warning (2): unlink(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/picture_1_125187664171.png) [http://php.net/function.unlink]: No such file or directory in [APP/controllers/components/filesystem.php, line 40]
+2009-09-03 16:05:06 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'all' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 16:05:10 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'all' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 16:05:11 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'all' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 16:26:23 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1048: Column 'peso' cannot be null</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 16:26:32 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`products`, CONSTRAINT `products_ibfk_3` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-03 17:49:27 Warning: Warning (2): array_combine() [http://php.net/function.array-combine]: Both parameters should have at least 1 element in [CORE/cake/libs/set.php, line 976]
+2009-09-03 17:51:30 Warning: Warning (2): array_combine() [http://php.net/function.array-combine]: Both parameters should have at least 1 element in [CORE/cake/libs/set.php, line 976]
+2009-09-03 17:54:42 Warning: Warning (2): array_combine() [http://php.net/function.array-combine]: Both parameters should have at least 1 element in [CORE/cake/libs/set.php, line 976]
+2009-09-03 17:54:49 Warning: Warning (2): array_combine() [http://php.net/function.array-combine]: Both parameters should have at least 1 element in [CORE/cake/libs/set.php, line 976]
+2009-09-03 18:07:25 Warning: Warning (2): array_combine() [http://php.net/function.array-combine]: Both parameters should have at least 1 element in [CORE/cake/libs/set.php, line 976]
+2009-09-03 18:08:22 Warning: Warning (2): array_combine() expects parameter 1 to be array, string given in [CORE/cake/libs/set.php, line 976]
+2009-09-04 18:55:36 Warning: Warning (2): array_merge() [http://php.net/function.array-merge]: Argument #2 is not an array in [CORE/cake/libs/view/helpers/form.php, line 961]
+2009-09-04 18:55:48 Warning: Warning (2): array_merge() [http://php.net/function.array-merge]: Argument #2 is not an array in [CORE/cake/libs/view/helpers/form.php, line 581]
+2009-09-05 17:01:39 Warning: Warning (2): sprintf() [http://php.net/function.sprintf]: Too few arguments in [APP/views/discount_codes/admin_view.ctp, line 19]
+2009-09-05 17:01:46 Warning: Warning (2): sprintf() [http://php.net/function.sprintf]: Too few arguments in [APP/views/discount_codes/admin_view.ctp, line 19]
+2009-09-05 17:07:45 Warning: Warning (512): Method HtmlHelper::email does not exist in [CORE/cake/libs/view/helper.php, line 143]
+2009-09-05 17:14:14 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1452: Cannot add or update a child row: a foreign key constraint fails (`cake_ingsw`.`accounts`, CONSTRAINT `account_type_id_fk` FOREIGN KEY (`account_type_id`) REFERENCES `account_types` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-05 18:15:38 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:16:20 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:16:37 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:17:02 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:17:34 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:17:48 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:18:36 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:24:53 Warning: Warning (2): array_combine() expects parameter 2 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:26:13 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:26:25 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:31:00 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:33:03 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:35:42 Warning: Warning (2): array_combine() expects parameter 1 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-05 18:36:15 Warning: Warning (2): array_combine() expects parameter 2 to be array, null given in [CORE/cake/libs/set.php, line 976]
+2009-09-06 09:18:31 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: No ending delimiter '/' found in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-06 09:18:42 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: No ending delimiter '/' found in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-06 09:34:02 Warning: Warning (2): Illegal offset type in [CORE/cake/libs/set.php, line 905]
+2009-09-06 11:54:39 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/app_controller.php, line 46]
+2009-09-06 13:38:29 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Unknown modifier '[' in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-06 13:38:40 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Unknown modifier '/' in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-06 13:38:40 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Unknown modifier '/' in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-06 13:41:23 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Unknown modifier '.' in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-06 13:46:35 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Unknown modifier '.' in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-06 13:46:49 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Unknown modifier '.' in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-06 13:46:59 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Unknown modifier ']' in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-06 13:58:49 Warning: Warning (2): sprintf() [http://php.net/function.sprintf]: Too few arguments in [APP/views/offers/admin_index.ctp, line 45]
+2009-09-06 13:58:49 Warning: Warning (2): htmlentities() [http://php.net/function.htmlentities]: charset `1' not supported, assuming iso-8859-1 in [CORE/cake/libs/view/helpers/html.php, line 295]
+2009-09-06 13:58:49 Warning: Warning (2): htmlentities() [http://php.net/function.htmlentities]: charset `6' not supported, assuming iso-8859-1 in [CORE/cake/libs/view/helpers/html.php, line 295]
+2009-09-06 13:58:49 Warning: Warning (2): htmlentities() [http://php.net/function.htmlentities]: charset `7' not supported, assuming iso-8859-1 in [CORE/cake/libs/view/helpers/html.php, line 295]
+2009-09-06 13:58:49 Warning: Warning (2): htmlentities() [http://php.net/function.htmlentities]: charset `8' not supported, assuming iso-8859-1 in [CORE/cake/libs/view/helpers/html.php, line 295]
+2009-09-06 13:58:49 Warning: Warning (2): htmlentities() [http://php.net/function.htmlentities]: charset `9' not supported, assuming iso-8859-1 in [CORE/cake/libs/view/helpers/html.php, line 295]
+2009-09-07 08:10:04 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-07 08:31:04 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-07 08:31:16 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-07 08:31:46 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Empty regular expression in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-07 08:31:46 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Empty regular expression in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-07 08:31:49 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Empty regular expression in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-07 08:31:51 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Empty regular expression in [CORE/cake/libs/model/model.php, line 2458]
+2009-09-07 10:42:33 Warning: Warning (2): Missing argument 1 for ProductCategoriesController::admin_getTreeDirectChildren(), called in /Users/ovosodo/Sites/ingsw/cake/cake/libs/object.php on line 116 and defined in [APP/controllers/product_categories_controller.php, line 72]
+2009-09-07 10:45:16 Warning: Warning (2): Missing argument 1 for ProductCategoriesController::admin_getTreeDirectChildren(), called in /Users/ovosodo/Sites/ingsw/cake/cake/libs/object.php on line 116 and defined in [APP/controllers/product_categories_controller.php, line 72]
+2009-09-07 10:45:43 Warning: Warning (2): Missing argument 1 for ProductCategoriesController::admin_getTreeDirectChildren(), called in /Users/ovosodo/Sites/ingsw/cake/cake/libs/object.php on line 116 and defined in [APP/controllers/product_categories_controller.php, line 72]
+2009-09-07 10:48:10 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/product_categories/admin_index.ctp, line 41]
+2009-09-07 10:48:24 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/product_categories/admin_index.ctp, line 41]
+2009-09-08 08:39:28 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1048: Column 'qta_minima_ordinabile' cannot be null</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-08 15:28:24 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductFilesystem.product__id' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-08 15:28:24 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/products/admin_edit.ctp, line 90]
+2009-09-08 15:28:54 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductFilesystem.1' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-08 15:28:54 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/products/admin_edit.ctp, line 90]
+2009-09-08 15:29:10 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductFilesystem.list' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-08 15:29:10 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/products/admin_edit.ctp, line 90]
+2009-09-08 15:52:46 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-08 15:52:46 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/picture_1_125188795459.png' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-08 15:52:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:501) in [APP/controllers/filesystems_controller.php, line 87]
+2009-09-08 15:52:46 Warning: Warning (2): imagejpeg(): supplied argument is not a valid Image resource in [APP/controllers/filesystems_controller.php, line 90]
+2009-09-08 15:52:46 Warning: Warning (2): imagedestroy(): supplied argument is not a valid Image resource in [APP/controllers/filesystems_controller.php, line 93]
+2009-09-10 10:32:05 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-10 10:32:05 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-10 10:32:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-10 10:32:05 Warning: Warning (2): imagejpeg(): supplied argument is not a valid Image resource in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-10 10:32:05 Warning: Warning (2): imagedestroy(): supplied argument is not a valid Image resource in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-10 15:19:57 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductTechnicalDetail.1' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-10 16:22:17 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/products/admin_edit.ctp, line 112]
+2009-09-10 16:22:50 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/products/admin_edit.ctp, line 107]
+2009-09-10 16:23:06 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/products/admin_edit.ctp, line 107]
+2009-09-10 16:23:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/products/admin_edit.ctp, line 108]
+2009-09-11 09:29:52 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Array' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-11 09:30:12 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Array' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-11 09:30:32 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Array' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-11 09:30:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:501) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-11 09:30:52 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Array' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-11 09:30:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:117) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-11 09:31:08 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Array' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-11 09:31:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:117) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-11 09:31:25 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Array' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-11 09:31:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:117) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-11 09:31:43 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Array' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 524]
+2009-09-11 09:31:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:117) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-14 10:40:36 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 10:40:36 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 10:40:36 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-14 10:40:36 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-14 10:40:36 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-14 12:12:16 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 12:12:16 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 12:12:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-14 12:12:16 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-14 12:12:16 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-14 13:33:23 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 13:33:23 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 13:33:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-14 13:33:23 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-14 13:33:23 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-14 14:09:14 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 14:09:14 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 14:09:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-14 14:09:14 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-14 14:09:14 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-14 14:09:25 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 14:09:25 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 14:09:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-14 14:09:25 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-14 14:09:25 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-14 14:10:30 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 14:10:30 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 14:10:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-14 14:10:30 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-14 14:10:30 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-14 14:13:51 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 14:13:51 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 14:13:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-14 14:13:51 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-14 14:13:51 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-14 15:44:55 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 15:44:55 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-14 15:44:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-14 15:44:55 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-14 15:44:55 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-14 17:12:21 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/view/helpers/form.php, line 453]
+2009-09-15 08:39:54 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 08:39:54 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 08:39:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 08:39:54 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 08:39:54 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 09:06:41 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-15 09:06:51 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-15 09:08:04 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-15 09:08:18 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Empty regular expression in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-15 09:08:18 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-15 09:44:11 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 09:44:11 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 09:44:11 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 09:44:11 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 09:44:11 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 09:46:50 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 09:46:50 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 09:46:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 09:46:50 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 09:46:50 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 11:03:59 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 11:03:59 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 11:03:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 11:03:59 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 11:03:59 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 11:20:13 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 11:20:13 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 11:20:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 11:20:13 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 11:20:13 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 11:32:35 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry 'ciao cazzone' for key 'gruppo'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 11:32:44 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '1029876378' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 11:44:10 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '123' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 11:49:08 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '123' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 11:50:40 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '123' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 11:50:46 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '123' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 11:51:16 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '123' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 11:51:30 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '123' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 11:51:44 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '123' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 11:51:58 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '123' for key 'partita_iva'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-15 13:01:13 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 13:01:13 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 13:01:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 13:01:13 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 13:01:13 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 13:01:16 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 13:01:16 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 13:01:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 13:01:16 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 13:01:16 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 13:01:27 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 13:01:27 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 13:01:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 13:01:27 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 13:01:27 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 13:02:04 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 13:02:04 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 13:02:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 13:02:04 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 13:02:04 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 13:18:24 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/discount_codes/admin_index.ctp, line 32]
+2009-09-15 14:30:46 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 14:30:46 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 14:30:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 14:30:46 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 14:30:46 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 15:31:26 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 15:31:26 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-15 15:31:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-15 15:31:26 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-15 15:31:26 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-15 16:00:55 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/detail_types/admin_index.ctp, line 32]
+2009-09-16 18:23:10 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-16 18:23:22 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-16 18:27:52 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Compilation failed: nothing to repeat at offset 6 in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-16 18:27:58 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Compilation failed: nothing to repeat at offset 6 in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-16 18:28:04 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Compilation failed: nothing to repeat at offset 6 in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-16 18:28:17 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Compilation failed: nothing to repeat at offset 4 in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-16 18:35:01 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-16 18:35:07 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-16 18:35:09 Warning: Warning (2): preg_match() [http://php.net/function.preg-match]: Delimiter must not be alphanumeric or backslash in [CORE/cake/libs/model/model.php, line 2456]
+2009-09-16 18:45:41 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/suppliers/admin_edit.ctp, line 2]
+2009-09-16 18:45:41 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/suppliers/admin_edit.ctp, line 6]
+2009-09-17 12:02:04 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '1-1' for key 'newindex'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 12:02:04 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '2-1' for key 'newindex'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 12:02:04 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '4-1' for key 'newindex'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 12:12:59 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '7-1' for key 'newindex'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 12:13:23 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '7-1' for key 'newindex'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 13:42:22 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductReservation.product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 15:55:34 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '11-3' for key 'offers_products_offer_id_idxfk'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 15:59:02 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '11-3' for key 'offers_products_offer_id_idxfk'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 16:52:24 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductReservation.5' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 16:56:40 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 43]
+2009-09-17 17:00:19 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'OffersProduct.product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:00:19 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:05:48 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'OffersProduct.product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:05:48 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:08:16 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductReservation.product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:08:30 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductReservation.offer_product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:09:20 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:16:49 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:17:07 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:19:49 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:20:04 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:20:25 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:20:34 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:20:38 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:20:44 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:21:34 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:21:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:22:45 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:24:25 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'OffersProduct.offers_product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:24:36 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'OffersProduct.reservation_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:24:43 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'OffersProduct.reservation_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:25:00 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'OffersProduct.reservation_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:27:32 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'OffersProduct.offers_product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:27:45 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'OffersProduct.offers_product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:29:50 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductReservation.product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:29:50 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:30:15 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'ProductReservation.product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:30:15 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:30:24 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:30:35 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:30:41 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:30:57 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:32:13 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:33:05 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Reservation.reservation_id' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:33:05 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:33:38 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ProductReservationfindAllByReservationId' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:33:38 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:33:46 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:34:05 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:34:44 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:35:27 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:35:54 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:37:09 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:37:15 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:39:34 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:41:43 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Product.product_reservation_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:41:43 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:42:01 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Product.product_reservation_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:42:01 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:42:23 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Product.product_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-17 17:42:23 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-17 17:42:40 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/reservations/admin_view.ctp, line 49]
+2009-09-18 08:48:13 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:48:14 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:48:27 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:48:28 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:48:30 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:48:54 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:48:57 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:49:06 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:49:09 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:49:16 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:49:28 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 08:49:32 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_index.ctp, line 44]
+2009-09-18 09:00:40 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/carts/index.ctp, line 47]
+2009-09-18 09:11:47 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/carts/index.ctp, line 47]
+2009-09-18 09:51:22 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_edit.ctp, line 155]
+2009-09-18 09:53:51 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_edit.ctp, line 155]
+2009-09-18 09:54:51 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_edit.ctp, line 154]
+2009-09-18 10:08:08 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_edit.ctp, line 154]
+2009-09-18 10:19:14 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_edit.ctp, line 154]
+2009-09-18 10:56:34 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/orders/admin_edit.ctp, line 168]
+2009-09-18 13:27:51 Warning: Warning (2): mktime() expects parameter 5 to be long, string given in [APP/models/order.php, line 87]
+2009-09-18 13:27:51 Warning: Warning (2): mktime() expects parameter 5 to be long, string given in [APP/models/order.php, line 91]
+2009-09-18 13:27:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:307) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-18 15:09:34 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:09:34 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:09:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-18 15:09:34 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:09:34 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-18 15:09:40 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:09:40 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:09:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-18 15:09:40 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:09:40 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-18 15:09:50 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:09:50 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:09:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-18 15:09:50 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:09:50 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-18 15:09:54 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:09:54 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:09:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-18 15:09:54 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:09:54 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-18 15:10:02 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:02 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-18 15:10:02 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:10:02 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-18 15:10:14 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:14 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-18 15:10:14 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:10:14 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-18 15:10:14 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:14 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-18 15:10:14 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:10:14 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-18 15:10:28 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:28 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:28 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-18 15:10:28 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:10:28 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-18 15:10:39 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:39 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 82]
+2009-09-18 15:10:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:505) in [APP/controllers/filesystems_controller.php, line 83]
+2009-09-18 15:10:39 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:10:39 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 85]
+2009-09-18 15:11:34 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:11:34 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:11:34 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 86]
+2009-09-18 15:11:34 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 87]
+2009-09-18 15:11:36 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: gd-jpeg: JPEG library reports unrecoverable error:  in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:11:36 Warning: Warning (2): imagecreatefromjpeg() [http://php.net/function.imagecreatefromjpeg]: '/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/nofoto.gif' is not a valid JPEG file in [APP/controllers/filesystems_controller.php, line 84]
+2009-09-18 15:11:36 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 86]
+2009-09-18 15:11:36 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 87]
+2009-09-18 15:45:15 Warning: Warning (2): mktime() expects parameter 5 to be long, string given in [APP/models/order.php, line 89]
+2009-09-18 15:45:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:517) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-18 15:54:37 Warning: Warning (2): preg_match() expects at least 2 parameters, 1 given in [APP/models/order.php, line 24]
+2009-09-18 15:59:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:501) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-19 16:57:55 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/carts/index.ctp, line 47]
+2009-09-20 21:13:43 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5370c.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:13:43 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:13:43 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:13:43 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5370b.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:13:43 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:13:43 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:13:43 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5370a.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:13:43 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:13:43 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:13:50 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5370b.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:13:50 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:13:50 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:13:50 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5370a.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:13:50 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:13:50 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:13:50 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5370c.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:13:50 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:13:50 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:17:11 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5345b.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:17:11 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:17:11 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:17:11 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5345a.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:17:11 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:17:11 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:19:14 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5345a.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:19:14 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5345b.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:19:14 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:19:14 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:19:14 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:19:14 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:23:31 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5425.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:23:31 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:23:31 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:24:30 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5345b.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:24:30 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:24:30 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-20 21:24:30 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5345a.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-20 21:24:30 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-20 21:24:30 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-21 08:52:56 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5345b.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-21 08:52:56 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-21 08:52:56 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-21 08:52:57 Warning: Warning (2): imagecreatefromjpeg(/Users/ovosodo/Sites/ingsw/cake/app/webroot/img/uploads/5345a.jpg) [http://php.net/function.imagecreatefromjpeg]: failed to open stream: No such file or directory in [APP/controllers/filesystems_controller.php, line 79]
+2009-09-21 08:52:57 Warning: Warning (2): imagejpeg() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 80]
+2009-09-21 08:52:57 Warning: Warning (2): imagedestroy() expects parameter 1 to be resource, boolean given in [APP/controllers/filesystems_controller.php, line 88]
+2009-09-21 14:45:39 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'o.id' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-21 14:46:03 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1052: Column 'id' in where clause is ambiguous</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-21 14:47:17 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'orifizio.id' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-21 14:55:44 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'o.data_ordine' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-21 14:56:04 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'order.data_ordine' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-21 15:04:32 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1065: Query was empty</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-21 15:04:48 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1065: Query was empty</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-21 15:04:52 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1065: Query was empty</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-21 15:23:15 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'orders.data_ordine BETWEEN '2009-08-22' AND '2009-09-21' GROUP BY orders.data_or' at line 3</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-22 15:36:05 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.regione AS regione, SUM(op.qta) AS qta, TRUNCATE(SUM(op.totale), 2) AS totale F' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-22 15:36:05 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/statistics/admin_index.ctp, line 16]
+2009-09-22 15:36:32 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.regione AS regione, SUM(op.qta) AS qta, TRUNCATE(SUM(op.totale), 2) AS totale F' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-22 15:36:32 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/statistics/admin_index.ctp, line 16]
+2009-09-22 15:51:07 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/statistics/admin_index.ctp, line 16]
+2009-09-22 15:52:30 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/statistics/admin_index.ctp, line 16]
+2009-09-22 16:09:37 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/statistics/admin_index.ctp, line 16]
+2009-09-22 16:09:53 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/statistics/admin_index.ctp, line 16]
+2009-09-22 16:10:05 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/statistics/admin_index.ctp, line 17]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 3
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 4
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 5
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 12
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 13
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 14
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 15
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 16
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 17
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 18
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 19
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 20
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 21
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 22
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 23
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 24
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 25
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 26
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 27
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 28
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 29
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 30
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 31
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 32
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 33
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 34
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 35
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 36
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 37
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 38
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 39
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 40
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 41
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 42
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 43
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 44
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 45
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 46
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 47
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 48
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 49
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 50
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 51
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 52
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 53
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 54
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 55
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 56
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 57
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 58
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 59
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 60
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 61
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 62
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 63
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 64
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 65
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 66
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 67
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 68
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 69
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 70
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 71
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 72
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 73
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 74
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 75
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 76
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 77
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 78
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 79
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-22 17:15:52 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 80
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-23 18:18:51 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'customers.gruppo' in 'group statement'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-23 18:27:28 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'customers.gruppo' in 'group statement'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-23 18:42:27 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' customers.group_id AS gruppi, SUM(op.qta) AS qta, TRUNCATE(SUM(op.totale), 2) A' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:48:54 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'id ASC' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:49:35 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'id ASC' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:49:35 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:49:35 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:49:35 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:49:35 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:49:35 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:55:04 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Order.status_order_id' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:55:04 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:55:04 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:55:04 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:55:04 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:55:04 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:55:14 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1052: Column 'id' in order clause is ambiguous</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:55:14 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:55:14 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:55:14 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:55:14 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:55:14 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:55:38 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:55:38 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:55:38 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:55:38 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:55:38 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:55:44 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:55:44 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:55:44 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:55:44 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:55:44 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:55:54 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:55:54 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:55:54 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:55:54 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:55:54 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:56:05 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:56:05 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:56:05 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:56:05 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:56:05 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:56:10 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:56:10 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:56:10 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:56:10 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:56:10 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:56:42 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:56:42 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:56:42 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:56:42 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:56:42 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:57:54 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:57:55 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:57:55 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:57:55 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:57:55 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 09:58:32 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1684]
+2009-09-24 09:58:32 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1686]
+2009-09-24 09:58:32 Warning: Warning (2): strpos() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1689]
+2009-09-24 09:58:32 Warning: Warning (2): trim() expects parameter 1 to be string, array given in [CORE/cake/libs/model/datasources/dbo_source.php, line 1691]
+2009-09-24 09:58:32 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order`., `Order`.`id` FROM `orders` AS `Order` LEFT JOIN `customers` AS `Custome' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 10:23:02 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 3
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 10:23:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 10:25:52 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'accounts_id' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 10:26:00 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1052: Column 'id' in order clause is ambiguous</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 10:26:03 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1052: Column 'id' in order clause is ambiguous</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 12:23:24 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' SUM(op.qta) AS qta, TRUNCATE(SUM(op.totale), 2) AS totale FROM order_products A' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 12:24:28 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' SUM(op.qta) AS qta, TRUNCATE(SUM(op.totale), 2) AS totale FROM order_products A' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 525]
+2009-09-24 15:29:36 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 15:30:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 15:31:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 15:31:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 15:32:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 15:32:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 15:32:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 15:33:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 15:36:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 18:51:26 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 1
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:51:26 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE/cake/libs/controller/components/acl.php, line 325]
+2009-09-24 18:51:26 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 4
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:51:26 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 2
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:51:26 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 3
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:53:40 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 1
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:53:40 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE/cake/libs/controller/components/acl.php, line 325]
+2009-09-24 18:53:40 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 4
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:53:40 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 2
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:53:40 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 3
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:54:00 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 1
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:54:00 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 1
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:54:31 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 4
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:54:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 18:54:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/libs/debugger.php:512) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 18:56:18 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => AccountType
+    [Aro0.foreign_key] => 5
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:56:18 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:307) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 18:57:00 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 1
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:57:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:307) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 18:57:30 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 1
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:57:54 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 81
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 18:57:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:307) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 18:58:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/ovosodo/Sites/ingsw/cake/cake/basics.php:307) in [CORE/cake/libs/controller/controller.php, line 644]
+2009-09-24 19:11:35 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Account
+    [Aro0.foreign_key] => 1
+)
+" in [CORE/cake/libs/model/db_acl.php, line 191]
+2009-09-24 21:10:24 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE/cake/libs/controller/components/acl.php, line 325]
+2009-09-24 21:11:02 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE/cake/libs/controller/components/acl.php, line 325]
+2009-09-24 21:12:03 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE/cake/libs/controller/components/acl.php, line 325]
+2009-09-24 21:12:15 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE/cake/libs/controller/components/acl.php, line 325]
+2009-09-24 21:12:38 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE/cake/libs/controller/components/acl.php, line 325]
+2009-09-24 21:15:25 Warning: Warning (512): DbAcl::allow() - Invalid node in [CORE/cake/libs/controller/components/acl.php, line 325]
+2009-09-25 09:01:59 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_login in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:13:28 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:13:33 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:13:34 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:13:35 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:13:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:13:55 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:13:56 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:14:03 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:19:19 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:19:21 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:19:22 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:20:56 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:21:01 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:21:05 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:25:10 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:25:14 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:25:47 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:25:49 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:25:50 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:25:51 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:25:51 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:25:52 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:25:58 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:28:01 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]
+2009-09-25 09:28:05 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [Account] => Array
+        (
+            [id] => 1
+            [nome] => Amministratore
+            [cognome] => 
+            [username] => admin
+            [attivo] => 1
+            [email] => admin@basket.loc
+            [account_type_id] => 1
+        )
+
+)
+
+Aco: controllers/Accounts/admin_logout in [CORE/cake/libs/controller/components/acl.php, line 239]

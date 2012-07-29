@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/392/tests/cases/controllers
+END
+anomalies_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/4/tests/cases/controllers/anomalies_controller.test.php
+END
+product_statuses_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/4/tests/cases/controllers/product_statuses_controller.test.php
+END
+accounts_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/392/tests/cases/controllers/accounts_controller.test.php
+END
+groups_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/4/tests/cases/controllers/groups_controller.test.php
+END
+account_types_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/4/tests/cases/controllers/account_types_controller.test.php
+END
+reservations_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/4/tests/cases/controllers/reservations_controller.test.php
+END
+product_reservations_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/4/tests/cases/controllers/product_reservations_controller.test.php
+END
+anomaly_types_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/4/tests/cases/controllers/anomaly_types_controller.test.php
+END
+customers_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/4/tests/cases/controllers/customers_controller.test.php
+END
+offers_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/4/tests/cases/controllers/offers_controller.test.php
+END
+offer_types_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/4/tests/cases/controllers/offer_types_controller.test.php
+END
+suppliers_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/4/tests/cases/controllers/suppliers_controller.test.php
+END
+detail_types_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/4/tests/cases/controllers/detail_types_controller.test.php
+END
+order_products_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/14/tests/cases/controllers/order_products_controller.test.php
+END
+orders_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/4/tests/cases/controllers/orders_controller.test.php
+END
+product_technical_details_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/4/tests/cases/controllers/product_technical_details_controller.test.php
+END
+payment_methods_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/4/tests/cases/controllers/payment_methods_controller.test.php
+END
+products_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/4/tests/cases/controllers/products_controller.test.php
+END
+shipping_methods_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/4/tests/cases/controllers/shipping_methods_controller.test.php
+END
+discount_codes_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/4/tests/cases/controllers/discount_codes_controller.test.php
+END
+order_statuses_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/4/tests/cases/controllers/order_statuses_controller.test.php
+END
+offers_products_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/4/tests/cases/controllers/offers_products_controller.test.php
+END
+filesystems_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/4/tests/cases/controllers/filesystems_controller.test.php
+END
+product_filesystems_controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/4/tests/cases/controllers/product_filesystems_controller.test.php
+END

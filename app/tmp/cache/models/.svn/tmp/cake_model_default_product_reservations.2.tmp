@@ -1,0 +1,7 @@
+<<<<<<< .mine
+1253553238
+a:2:{s:14:"reservation_id";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";s:1:"0";s:6:"length";i:11;s:3:"key";s:7:"primary";}s:17:"offers_product_id";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";s:1:"0";s:6:"length";i:11;s:3:"key";s:7:"primary";}}
+=======
+1253869079
+a:5:{s:2:"id";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;s:3:"key";s:7:"primary";}s:14:"reservation_id";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";s:1:"0";s:6:"length";i:11;s:3:"key";s:5:"index";}s:17:"offers_product_id";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";s:1:"0";s:6:"length";i:11;}s:8:"quantita";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";s:1:"0";s:6:"length";i:5;}s:6:"prezzo";a:4:{s:4:"type";s:5:"float";s:4:"null";b:0;s:7:"default";s:1:"0";s:6:"length";N;}}
+>>>>>>> .r451

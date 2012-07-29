@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/!svn/ver/4/shell/views/layouts
+END
+flash.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/4/shell/views/layouts/flash.ctp
+END
+ajax.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/4/shell/views/layouts/ajax.ctp
+END
+default.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/4/shell/views/layouts/default.ctp
+END

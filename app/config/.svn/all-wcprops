@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/!svn/ver/494/config
+END
+acl.ini.php
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/!svn/ver/4/config/acl.ini.php
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/4/config/bootstrap.php
+END
+inflections.php
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/4/config/inflections.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/!svn/ver/426/config/routes.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/!svn/ver/4/config/database.php
+END
+core.php
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/!svn/ver/486/config/core.php
+END

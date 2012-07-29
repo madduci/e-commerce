@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/!svn/ver/404/tests/fixtures
+END
+product_status_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/4/tests/fixtures/product_status_fixture.php
+END
+product_filesystem_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/4/tests/fixtures/product_filesystem_fixture.php
+END
+filesystem_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/4/tests/fixtures/filesystem_fixture.php
+END
+offers_product_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/4/tests/fixtures/offers_product_fixture.php
+END
+account_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/83/tests/fixtures/account_fixture.php
+END
+group_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/4/tests/fixtures/group_fixture.php
+END
+account_type_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/4/tests/fixtures/account_type_fixture.php
+END
+anomaly_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/4/tests/fixtures/anomaly_fixture.php
+END
+reservation_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/404/tests/fixtures/reservation_fixture.php
+END
+product_reservation_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/404/tests/fixtures/product_reservation_fixture.php
+END
+anomaly_type_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/4/tests/fixtures/anomaly_type_fixture.php
+END
+customer_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/4/tests/fixtures/customer_fixture.php
+END
+offer_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/4/tests/fixtures/offer_fixture.php
+END
+offer_type_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/4/tests/fixtures/offer_type_fixture.php
+END
+supplier_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/4/tests/fixtures/supplier_fixture.php
+END
+detail_type_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/4/tests/fixtures/detail_type_fixture.php
+END
+order_product_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/14/tests/fixtures/order_product_fixture.php
+END
+order_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/404/tests/fixtures/order_fixture.php
+END
+product_technical_detail_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/4/tests/fixtures/product_technical_detail_fixture.php
+END
+payment_method_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/4/tests/fixtures/payment_method_fixture.php
+END
+product_category_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/404/tests/fixtures/product_category_fixture.php
+END
+order_status_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/4/tests/fixtures/order_status_fixture.php
+END
+product_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/404/tests/fixtures/product_fixture.php
+END
+shipping_method_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/404/tests/fixtures/shipping_method_fixture.php
+END
+discount_code_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/4/tests/fixtures/discount_code_fixture.php
+END

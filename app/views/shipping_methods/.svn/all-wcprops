@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/352/views/shipping_methods
+END
+admin_edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/332/views/shipping_methods/admin_edit.ctp
+END
+admin_index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/352/views/shipping_methods/admin_index.ctp
+END
+admin_add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/332/views/shipping_methods/admin_add.ctp
+END

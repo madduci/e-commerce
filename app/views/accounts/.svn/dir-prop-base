@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 102
+._admin_add.ctp
+._admin_edit.ctp
+._admin_index.ctp
+._admin_view.ctp
+._index.ctp
+._add.ctp
+._login.ctp
+
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/156/webroot/js/tiny_mce/plugins/table/jscripts
+END
+row.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/156/webroot/js/tiny_mce/plugins/table/jscripts/row.js
+END
+table.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/156/webroot/js/tiny_mce/plugins/table/jscripts/table.js
+END
+cell.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/156/webroot/js/tiny_mce/plugins/table/jscripts/cell.js
+END
+merge_cells.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/156/webroot/js/tiny_mce/plugins/table/jscripts/merge_cells.js
+END

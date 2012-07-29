@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 65
+._admin_add.ctp
+._admin_view.ctp
+._admin_index.ctp
+._success.ctp
+
+END

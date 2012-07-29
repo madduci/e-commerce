@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/352/views/discount_codes
+END
+admin_edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/239/views/discount_codes/admin_edit.ctp
+END
+admin_index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/352/views/discount_codes/admin_index.ctp
+END
+admin_add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/239/views/discount_codes/admin_add.ctp
+END

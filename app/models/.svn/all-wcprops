@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/!svn/ver/449/models
+END
+cart.php
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/!svn/ver/92/models/cart.php
+END
+newproduct.php
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/349/models/newproduct.php
+END
+group.php
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/!svn/ver/267/models/group.php
+END
+anomaly.php
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/!svn/ver/96/models/anomaly.php
+END
+reservation.php
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/301/models/reservation.php
+END
+anomaly_type.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/320/models/anomaly_type.php
+END
+offer_type.php
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/4/models/offer_type.php
+END
+detail_type.php
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/240/models/detail_type.php
+END
+shell.php
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/!svn/ver/4/models/shell.php
+END
+faq.php
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/!svn/ver/314/models/faq.php
+END
+order_product.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/12/models/order_product.php
+END
+payment_method.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/4/models/payment_method.php
+END
+order_status.php
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/4/models/order_status.php
+END
+product.php
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/281/models/product.php
+END
+discount_code.php
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/239/models/discount_code.php
+END
+product_status.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/266/models/product_status.php
+END
+filesystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/4/models/filesystem.php
+END
+contact.php
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/314/models/contact.php
+END
+account.php
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/416/models/account.php
+END
+account_type.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/239/models/account_type.php
+END
+customer.php
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/211/models/customer.php
+END
+offer.php
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/!svn/ver/449/models/offer.php
+END
+product_reservation.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/300/models/product_reservation.php
+END
+supplier.php
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/268/models/supplier.php
+END
+order.php
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/!svn/ver/330/models/order.php
+END
+product_technical_detail.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/4/models/product_technical_detail.php
+END
+product_category.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/201/models/product_category.php
+END
+flyer.php
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/!svn/ver/357/models/flyer.php
+END
+shipping_method.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/332/models/shipping_method.php
+END
+offers_product.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/4/models/offers_product.php
+END
+product_filesystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/4/models/product_filesystem.php
+END

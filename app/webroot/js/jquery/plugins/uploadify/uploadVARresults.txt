@@ -1,0 +1,4 @@
+path: /files
+ targetFile: /Users/ovosodo/Sites/ingsw/cake/app/webroot/files/Picture 2.png
+ Error: 0
+Error Info: No Error

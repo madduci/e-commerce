@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/!svn/ver/4/shell/webroot
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/4/shell/webroot/test.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/4/shell/webroot/.htaccess
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/4/shell/webroot/index.php
+END
+css.php
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/4/shell/webroot/css.php
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/4/shell/webroot/favicon.ico
+END

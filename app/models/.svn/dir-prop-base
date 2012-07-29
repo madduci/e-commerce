@@ -1,0 +1,21 @@
+K 10
+svn:ignore
+V 277
+._account.php
+._offers_product.php
+._product.php
+._reservation.php
+._anomaly.php
+._anomaly_type.php
+._customer.php
+._discount_code.php
+._offer.php
+._detail_type.php
+._product_category.php
+._product_status.php
+._account_type.php
+._group.php
+._supplier.php
+._shipping_method.php
+
+END

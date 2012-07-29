@@ -1,0 +1,316 @@
+<?php
+class ProductsController extends AppController {
+	var $name = 'Products';
+	var $helpers = array('Html', 'Form', 'Javascript');
+	var $components = array('Filesystem' => array('upload_size_limit' => 2097152));
+	var $paginate = array('order' => array('Product.id'), 'limit' => '30'); 
+
+	function admin_index() {
+		$this->Product->recursive = 0;
+		$this->set('products', $this->paginate());
+	}
+
+	function admin_add() {
+		if (!empty($this->data)) {
+			$this->Product->create();
+
+			if ($this->Product->save($this->data)) {
+				$this->Session->setFlash("Prodotto aggiunto correttamente", 'default', array('class' => 'flashsuccess'));
+				$this->redirect(array('action'=>'index'));
+			} else {
+				if (isset($this->data['Product']['product_category_id']))
+					$this->set('categoria', $this->Product->ProductCategory->read(null, $this->data['Product']['product_category_id']));
+				$this->Session->setFlash("Errore nell'aggiunta del prodotto. Riprovare", 'default', array('class' => 'flasherror'));
+			}
+		}
+		
+		$productStatuses = $this->_resolveForeignKey($this, "ProductStatus", array('id', 'descrizione'), 'descrizione ASC');
+		$suppliers = $this->_resolveForeignKey($this, "Supplier", array('id', 'ragione_sociale'), 'ragione_sociale ASC');
+		$this->set(compact('productStatuses', 'suppliers'));
+	}
+
+	function admin_edit($id = null) {
+		if (!$id && empty($this->data)) {
+			$this->Session->setFlash("Prodotto non trovato", 'default', array('class' => 'flashwarning'));
+			$this->redirect(array('action'=>'index'));
+		}
+		
+		if (!$this->_exists($id, $this, "Prodotto non trovato"))
+			$this->redirect(array('action' => 'index'));
+			
+		if (!empty($this->data)) {
+			if ($this->Product->save($this->data)) {
+				$this->Session->setFlash("Prodotto modificato correttamente", 'default', array('class' => 'flashsuccess'));
+				$this->redirect(array('action'=>'index'));
+			} else {
+				$this->Session->setFlash("Errore nella modifica del prodotto. Riprovare.", 'default', array('class' => 'flasherror'));
+			}
+		}
+		
+		if (empty($this->data)) {
+			$this->data = $this->Product->read(null, $id);
+		}
+		
+		$this->set('categoria', $this->Product->ProductCategory->read(null, $this->data['Product']['product_category_id']));
+		$productStatuses = $this->_resolveForeignKey($this, "ProductStatus", array('id', 'descrizione'), 'descrizione ASC');
+		$suppliers = $this->_resolveForeignKey($this, "Supplier", array('id', 'ragione_sociale'), 'ragione_sociale ASC');
+		$detailTypes = $this->_resolveForeignKey2($this->Product->ProductTechnicalDetail, 'DetailType', array('id', 'descrizione'), 'descrizione ASC');
+		$technicalDetails = $this->Product->ProductTechnicalDetail->findAllByProductId($id);
+		
+		$filesystem = $this->Product->ProductFilesystem->findAllByProductId($id);
+		$this->set(compact('productStatuses', 'suppliers', 'filesystem', 'detailTypes', 'technicalDetails'));
+		
+		$on_complete = 'var id = '.$this->data['Product']['id'].';
+		$.get("/admin/products/bind_file/'.$this->data['Product']['id'].'/"+d, function(data) {
+			newImgBox = \'<div class="foto"><img src="/img/\'+d+\'" height="60" /><br>D: <input type="radio" name="data[Product][foto_default]" value="\'+ d +\'" />E: <input type="checkbox" name="data[Filesystem][id][]" value="\' + d + \'" id="delete" /></div>\';
+			$("#foto").append(newImgBox);
+		});';
+		
+		$this->set('css', $this->Filesystem->css());
+		$this->set('scriptjs', $this->Filesystem->include_js());
+		$this->set('script', $this->Filesystem->jquery_script('/js/jquery/plugins/uploadify/', '/img/uploads', '*.jpg;*.jpeg', 'true', '/admin/products/upload_file', $on_complete));
+		$this->set('upload_form', $this->Filesystem->form());
+	}
+	
+	function admin_edit_gallery($id) {
+		$this->autoRender = false;
+		
+		$deleteFotoDefault = 0;
+		
+		if (!empty($this->data)) {
+			if (isset($this->data['Filesystem'])) {
+				foreach ($this->data['Filesystem']['id'] as $key => $fileid) {
+					if (isset($this->data['Product'])) {
+						if ($fileid == $this->data['Product']['foto_default'])
+							$deleteFotoDefault = 1;
+							
+						$this->Filesystem->delete($fileid);
+					}
+				}
+			}
+			
+			if (isset($this->data['Product'])) {
+				$prodotto = $this->Product->read(null, $id);
+				$this->Product->create();
+				$this->Product->set('id', $prodotto['Product']['id']);
+				
+				if (!$deleteFotoDefault)
+					$this->Product->set('foto_default', $this->data['Product']['foto_default']);
+				else
+					$this->Product->set('foto_default', '');
+
+				$this->Product->save();
+			}
+		}
+		
+		$this->setFlash("Galleria foto modificata con successo", 'default', array('class' => 'flashsuccess'));
+		$this->redirect(array("action" => 'edit', "id" => $id));
+	}
+	
+	function admin_delete($id = null) {
+		if (!$id) {
+			$this->Session->setFlash("Prodotto non trovato", 'default', array('class' => 'flashwarning'));
+			$this->redirect(array('action'=>'index'));
+		}
+		
+		if (!$this->_exists($id, $this, "Prodotto non trovato"))
+			$this->redirect(array('action' => 'index'));
+			
+		if ($this->Product->del($id)) {
+			$this->Session->setFlash("Prodotto eliminato con successo", 'default', array('class' => 'flashsuccess'));
+			$this->redirect(array('action'=>'index'));
+		}
+	}
+	
+	function admin_add_technical_detail() {
+		$this->autoRender = false;
+		#debug($this->data);
+
+		if (isset($this->data['ProductTechnicalDetail']['edit'])) {
+			foreach ($this->data['ProductTechnicalDetail']['edit']['detail_type_id'] as $key => $value) {
+				$this->Product->ProductTechnicalDetail->create();
+				$this->Product->ProductTechnicalDetail->set('id', $this->data['ProductTechnicalDetail']['edit']['id'][$key]);
+				$this->Product->ProductTechnicalDetail->set('product_id', $this->data['ProductTechnicalDetail']['product_id']);
+				$this->Product->ProductTechnicalDetail->set('detail_type_id', $value);
+				$this->Product->ProductTechnicalDetail->set('valore_dettaglio', $this->data['ProductTechnicalDetail']['edit']['valore_dettaglio'][$key]);
+				$this->Product->ProductTechnicalDetail->save();
+			}
+		}
+		
+		if (isset($this->data['ProductTechnicalDetail']['delete'])) {
+			foreach ($this->data['ProductTechnicalDetail']['delete'] as $delete) {
+				if ($delete != 0)
+					$this->Product->ProductTechnicalDetail->del($delete);
+			}
+		}
+		
+		if (isset($this->data['ProductTechnicalDetail']['add'])) {
+			foreach ($this->data['ProductTechnicalDetail']['add']['valore_dettaglio'] as $key => $value) {
+				if (!empty($value)) {
+					$this->Product->ProductTechnicalDetail->create();
+					$this->Product->ProductTechnicalDetail->set('product_id', $this->data['ProductTechnicalDetail']['product_id']);
+					$this->Product->ProductTechnicalDetail->set('detail_type_id', $this->data['ProductTechnicalDetail']['add']['detail_type_id'][$key]);
+					$this->Product->ProductTechnicalDetail->set('valore_dettaglio', $value);
+					$this->Product->ProductTechnicalDetail->save();
+				}
+			}
+		}
+
+		$this->Session->setFlash("Dettagli tecnici modificati con successo", 'default', array('class' => 'flashsuccess'));
+		$this->redirect(array('action' => 'edit', 'id' => $this->data['ProductTechnicalDetail']['product_id']));
+		
+	}
+	
+	function admin_upload_file() {
+		$this->autoRender = false;
+
+		echo $this->Filesystem->process_upload();
+	}
+	
+	function admin_bind_file($prodotto_id, $filesystem_id) {
+		$this->autoRender = false;
+		
+		$this->Product->ProductFilesystem->create();
+		$this->Product->ProductFilesystem->set('product_id', $prodotto_id);
+		$this->Product->ProductFilesystem->set('filesystem_id', $filesystem_id);
+	
+		if ($this->Product->ProductFilesystem->save())
+			echo $filesystem_id;
+	}
+	
+	function view($id = null) {
+		if (!$id) {
+			$this->Session->setFlash("Prodotto non trovato");
+			$this->redirect(array('action'=>'index'));
+		}
+		
+		$this->Product->bindModel(array('hasOne'=>array('Filesystem' =>array(
+			 		'foreignKey'=> false, 
+					'type'=>'INNER' ))));
+		$product=$this->Product->read(null, $id);
+		$details=$this->Product->ProductTechnicalDetail->find('all',array('conditions' => array('product_id' => $id)));  //trova i dettagli tecnici (i nomi dei dettagli)
+		$foto=$this->Product->ProductFilesystem->findAllByProductId($id);
+		
+		
+		$this->set('foto',$foto);
+		$this->set('details',$details);
+		$this->set('product', $product);
+		$this->set('idcat',$id);//mi conservo l'id della categoria per poterla inserire nella vista
+	}
+	
+	function index_categorized($id = null) { //mostra i prodotti  per categoria 		
+									  //passando il valore $id
+			if(!$id){
+				$this->Session->setFlash("Prodotto non trovato");
+				$this->redirect(array('action'=>'index'));	}				      
+			else{ 
+				$cats=$this->Product->ProductCategory->findById($id);
+				$path = $this->Product->ProductCategory->getpath($id);
+				$allChilds=$this->Product->ProductCategory->children($id);
+				$this->set('percorso',$path);
+				
+				if(!empty($allChilds)){
+				
+				$this->set('childrens',$allChilds);
+				$this->set('products', $this->paginate('Product', array('product_category_id IN (SELECT id FROM product_categories WHERE lft >='.$cats['ProductCategory']['lft'].' AND rght<='.$cats['ProductCategory']['rght'].')')));
+				
+				}
+				else
+					$this->set('products', $this->paginate('Product', array('or' => array('product_category_id LIKE' => ''.$id.''))));
+				
+				}
+		}
+		
+	function lists(){  //elenca tutti i prodotti disponibili
+		
+		$this->Product->recursive = 0;
+		$this->set('products', $this->paginate());
+	
+	}
+		
+	function index($id=null){ //mostra la vetrina prodotti
+				
+			if(isset($_SESSION['Auth']['Account'])){
+			
+			$acc=$this->Session->read('Auth');
+			
+			$this->Product->bindModel(array('hasOne'=>array('Order' =>array(
+			 		'foreignKey'=> false, 
+					'type'=>'INNER' ))));
+					
+			$account=$this->Product->Order->Customer->findByAccountId($acc['Account']['id']);
+			if(!empty($account)){
+				$this->Session->write('Customer',$account);
+			}
+			$this->Product->unbindModel(array('hasOne' => array('Order')));
+		}
+		if(!isset($id)){
+				$query=$this->Product->find('all',array('conditions' => array('vetrina' => '1', 'pubblica' => '1'), 'order' => 'RAND()', 'limit' => '4'));  //trova i prodotti per la vetrina
+				//uguale a "SELECT * FROM products WHERE vetrina = 1 ORDER BY RAND()  LIMIT 0,4 ";
+				
+				$this->set('products',$query);
+				
+		}
+		else{
+				$query=$this->Product->find('all',array('conditions' => array('Product.product_category_id'=>$id, 'vetrina' => '1', 'pubblica' => '1'),'order'=>'RAND()','limit'=>'4'));  //trova i prodotti per la vetrina
+				//uguale a "SELECT * FROM products WHERE vetrina = 1 ORDER BY RAND()  LIMIT 0,4 ";
+				if(!empty($query))
+					{
+						$this->set('products',$query);
+						$this->set('idcat',$id);//passo la categoria alla vista
+				}
+				else{
+					$cat=$this->Product->ProductCategory->children($id, true);
+					$query=array();
+					$products=array();
+					$i=0;
+					foreach($cat as $cats){
+							
+					$query=$this->Product->query("SELECT * from products AS Product WHERE product_category_id = ".$cats['ProductCategory']['id']." ORDER BY RAND() LIMIT 4");
+					$i++;
+							if($i>=4){
+								break;
+							}
+						}
+					
+
+					$this->set('products',$query);
+					$this->set('idcat',$id);//passo la categoria alla vista
+				
+				}
+		
+		}
+		$query3=$this->Product->Offer->query("SELECT * from offers WHERE (inizio - now())>10 AND offer_type_id=1 ");
+		if(!empty($query3)){
+				$datain=$query3[0]['offers']['inizio'];
+				
+				$datastart=date('Y-m-d',strtotime("$datain - 17days"));
+				$dataend=date('Y-m-d',strtotime("$datain - 10days"));
+				
+				$offer['Offer']=$query3[0]['offers'];
+				$offer['Offer']['inizioprenotazione']=$datastart;
+				$offer['Offer']['fineprenotazione']=$dataend;
+				
+				$this->Session->write('Offers',$offer);
+					}
+					
+		$query4=$this->Product->ProductCategory->children(1, true);
+		$this->Session->write('categories',$query4);
+		
+	}
+	
+	function find(){
+		
+		if(empty($_GET))
+			{
+				$this->Session->setFlash('<h2 style="margin:40px 0 0 0">Non hai inserito la chiave di ricerca</h2>');
+				$this->redirect(array('action'=>'index'));
+			}
+		$nome=$_GET['nome'];
+		$products=$this->Product->query("SELECT * FROM products AS Product WHERE nome REGEXP '".$nome."*'");
+		$this->set('products',$products);
+		
+	}
+
+}
+?>

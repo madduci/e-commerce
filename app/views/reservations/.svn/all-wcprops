@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/486/views/reservations
+END
+admin_index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/352/views/reservations/admin_index.ctp
+END
+admin_view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/298/views/reservations/admin_view.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/285/views/reservations/index.ctp
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/423/views/reservations/add.ctp
+END
+success.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/478/views/reservations/success.ctp
+END
+destroy.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/285/views/reservations/destroy.ctp
+END
+error.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/276/views/reservations/error.ctp
+END
